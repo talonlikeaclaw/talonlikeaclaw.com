@@ -31,6 +31,10 @@
     "title": "Who I Work With",
     "subtitle": "Organizations that benefit most from this kind of work."
   },
+  "process": {
+    "title": "How I Work",
+    "subtitle": "A clear, predictable path from first conversation to a system you can run yourself."
+  },
   "nav": {
     "services": "Services",
     "work": "Work",

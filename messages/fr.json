@@ -31,6 +31,10 @@
     "title": "Avec qui je travaille",
     "subtitle": "Les organisations qui bénéficient le plus de ce type de travail."
   },
+  "process": {
+    "title": "Comment je travaille",
+    "subtitle": "Un cheminement clair et prévisible, de la première conversation à un système que vous pouvez gérer vous-même."
+  },
   "nav": {
     "services": "Services",
     "work": "Réalisations",
