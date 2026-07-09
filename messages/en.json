@@ -11,9 +11,13 @@
       "description": "Reliable, documented, reproducible deployments. Cloud or self-hosted."
     }
   },
-  "home": {
-    "locale": "EN",
-    "placeholder": "Site under construction."
+  "hero": {
+    "eyebrow": "Infrastructure & Deployment Engineering",
+    "headline": "Reliable infrastructure for the software your business depends on.",
+    "subtext": "I set up, deploy, and document applications and servers on managed cloud like Azure, Cloudflare, or AWS, or on your own hardware. Built for small businesses, schools, and founders who need things to just work.",
+    "ctaPrimary": "Get in touch",
+    "ctaSecondary": "See my work",
+    "location": "Based in Montréal, Québec"
   },
   "nav": {
     "services": "Services",

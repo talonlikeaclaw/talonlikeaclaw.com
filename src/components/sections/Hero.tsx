@@ -1,0 +1,39 @@
+import { useTranslations } from "next-intl";
+import Container from "@/components/ui/Container";
+
+export default function Hero() {
+  const t = useTranslations("hero");
+
+  return (
+    <section className="relative flex min-h-screen items-center pt-20 pb-16">
+      <Container>
+        <div>
+          <p className="font-mono text-sm text-accent sm:text-base">
+            <span className="text-muted">$</span> {t("eyebrow")}
+          </p>
+          <h1 className="mt-6 font-mono text-2xl font-bold leading-tight tracking-tight text-text sm:text-6xl">
+            {t("headline")}
+          </h1>
+          <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
+            {t("subtext")}
+          </p>
+          <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+            <a
+              href="mailto:talonlikeaclaw@proton.me"
+              className="rounded-lg border border-accent bg-accent/10 px-6 py-3 text-center font-mono font-medium text-accent transition-all hover:bg-accent hover:text-black focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
+            >
+              {t("ctaPrimary")}
+            </a>
+            <a
+              href="#work"
+              className="rounded-lg border border-border bg-background/40 px-6 py-3 text-center font-mono font-medium text-text transition-all hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
+            >
+              {t("ctaSecondary")}
+            </a>
+          </div>
+          <p className="mt-10 font-mono text-sm text-muted">{t("location")}</p>
+        </div>
+      </Container>
+    </section>
+  );
+}

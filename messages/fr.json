@@ -11,9 +11,13 @@
       "description": "Déploiements fiables, documentés et reproductibles. Cloud ou auto-hébergé."
     }
   },
-  "home": {
-    "locale": "FR",
-    "placeholder": "Site en construction."
+  "hero": {
+    "eyebrow": "Ingénierie d''infrastructure et de déploiement",
+    "headline": "Une infrastructure fiable pour les logiciels dont votre entreprise dépend.",
+    "subtext": "J''installe, déploie et documente des applications et des serveurs sur le cloud géré comme Azure, Cloudflare ou AWS, ou sur votre propre matériel. Conçu pour les PME, les écoles et les fondateurs qui ont besoin que les choses fonctionnent.",
+    "ctaPrimary": "Me contacter",
+    "ctaSecondary": "Voir mes réalisations",
+    "location": "Basé à Montréal, Québec"
   },
   "nav": {
     "services": "Services",
