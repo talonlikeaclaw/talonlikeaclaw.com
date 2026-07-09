@@ -1,27 +1,35 @@
 {
   "metadata": {
     "title": "Talon Dunbar | Infrastructure & Deployment Engineer",
-    "description": "Reliable, documented, reproducible deployments for small businesses, schools, and technical founders. Cloud or self-hosted.",
+    "description": "I help small organizations deploy and maintain reliable, well-documented applications and infrastructure, in the cloud or on their own hardware.",
     "openGraph": {
       "title": "Talon Dunbar | Infrastructure & Deployment Engineer",
-      "description": "Reliable, documented, reproducible deployments. Cloud or self-hosted."
+      "description": "I help small organizations deploy and maintain reliable, well-documented infrastructure. Cloud or self-hosted."
     },
     "twitter": {
       "title": "Talon Dunbar | Infrastructure & Deployment Engineer",
-      "description": "Reliable, documented, reproducible deployments. Cloud or self-hosted."
+      "description": "I help small organizations deploy and maintain reliable, well-documented infrastructure. Cloud or self-hosted."
     }
   },
   "hero": {
     "eyebrow": "Infrastructure & Deployment Engineering",
-    "headline": "Reliable infrastructure for the software your business depends on.",
-    "subtext": "I set up, deploy, and document applications and servers on managed cloud like Azure, Cloudflare, or AWS, or on your own hardware. Built for small businesses, schools, and founders who need things to just work.",
+    "headline": "Reliable deployments for the software your organization depends on.",
+    "subtext": "I help small businesses, agencies, and technical founders deploy, document, and maintain applications and servers in the cloud or on their own hardware.",
     "ctaPrimary": "Get in touch",
-    "ctaSecondary": "See my work",
+    "ctaSecondary": "View technical portfolio",
     "location": "Based in Montréal, Québec"
   },
   "trust": {
     "cloudLabel": "Cloud",
     "selfHostedLabel": "Self-hosted"
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "How I can help you ship and stay running."
+  },
+  "who": {
+    "title": "Who I Work With",
+    "subtitle": "Organizations that benefit most from this kind of work."
   },
   "nav": {
     "services": "Services",

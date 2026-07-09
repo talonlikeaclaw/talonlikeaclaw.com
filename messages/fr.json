@@ -1,27 +1,35 @@
 {
   "metadata": {
     "title": "Talon Dunbar | Ingénieur en Infrastructure et Déploiement",
-    "description": "Déploiements fiables, documentés et reproductibles pour les PME, les écoles et les fondateurs techniques. Cloud ou auto-hébergé.",
+    "description": "J'aide les petites organisations à déployer et maintenir des applications et une infrastructure fiables et bien documentées, dans le cloud ou sur leur propre matériel.",
     "openGraph": {
       "title": "Talon Dunbar | Ingénieur en Infrastructure et Déploiement",
-      "description": "Déploiements fiables, documentés et reproductibles. Cloud ou auto-hébergé."
+      "description": "J'aide les petites organisations à déployer et maintenir une infrastructure fiable et bien documentée. Cloud ou auto-hébergé."
     },
     "twitter": {
       "title": "Talon Dunbar | Ingénieur en Infrastructure et Déploiement",
-      "description": "Déploiements fiables, documentés et reproductibles. Cloud ou auto-hébergé."
+      "description": "J'aide les petites organisations à déployer et maintenir une infrastructure fiable et bien documentée. Cloud ou auto-hébergé."
     }
   },
   "hero": {
-    "eyebrow": "Ingénierie d''infrastructure et de déploiement",
-    "headline": "Une infrastructure fiable pour les logiciels dont votre entreprise dépend.",
-    "subtext": "J''installe, déploie et documente des applications et des serveurs sur le cloud géré comme Azure, Cloudflare ou AWS, ou sur votre propre matériel. Conçu pour les PME, les écoles et les fondateurs qui ont besoin que les choses fonctionnent.",
+    "eyebrow": "Ingénierie d'infrastructure et de déploiement",
+    "headline": "Des déploiements fiables pour les logiciels dont votre organisation dépend.",
+    "subtext": "J'aide les petites entreprises, les agences et les fondateurs techniques à déployer, documenter et maintenir des applications et des serveurs dans le cloud ou sur leur propre matériel.",
     "ctaPrimary": "Me contacter",
-    "ctaSecondary": "Voir mes réalisations",
+    "ctaSecondary": "Voir le portfolio technique",
     "location": "Basé à Montréal, Québec"
   },
   "trust": {
     "cloudLabel": "Cloud",
     "selfHostedLabel": "Auto-hébergé"
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Comment je peux vous aider à livrer et rester en ligne."
+  },
+  "who": {
+    "title": "Avec qui je travaille",
+    "subtitle": "Les organisations qui bénéficient le plus de ce type de travail."
   },
   "nav": {
     "services": "Services",

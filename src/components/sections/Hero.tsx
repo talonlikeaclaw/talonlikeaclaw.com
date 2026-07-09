@@ -1,12 +1,14 @@
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import Container from "@/components/ui/Container";
+import type { Locale } from "@/i18n/routing";
 
 export default function Hero() {
   const t = useTranslations("hero");
+  const locale = useLocale() as Locale;
 
   return (
     <section className="relative flex min-h-screen items-center pt-20 pb-16">
-      <Container>
+      <Container className="max-w-6xl">
         <div>
           <p className="font-mono text-sm text-accent sm:text-base">
             <span className="text-muted">$</span> {t("eyebrow")}
@@ -25,7 +27,9 @@ export default function Hero() {
               {t("ctaPrimary")}
             </a>
             <a
-              href="#work"
+              href={`https://portfolio.talonlikeaclaw.com/${locale}/`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-lg border border-border bg-background/40 px-6 py-3 text-center font-mono font-medium text-text transition-all hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
             >
               {t("ctaSecondary")}
