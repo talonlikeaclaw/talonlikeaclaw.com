@@ -19,6 +19,10 @@
     "ctaSecondary": "See my work",
     "location": "Based in Montréal, Québec"
   },
+  "trust": {
+    "cloudLabel": "Cloud",
+    "selfHostedLabel": "Self-hosted"
+  },
   "nav": {
     "services": "Services",
     "work": "Work",
