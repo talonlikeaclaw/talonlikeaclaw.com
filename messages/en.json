@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "title": "Talon Dunbar | Infrastructure & Deployment Engineer",
+    "description": "Reliable, documented, reproducible deployments for small businesses, schools, and technical founders. Cloud or self-hosted.",
+    "openGraph": {
+      "title": "Talon Dunbar | Infrastructure & Deployment Engineer",
+      "description": "Reliable, documented, reproducible deployments. Cloud or self-hosted."
+    },
+    "twitter": {
+      "title": "Talon Dunbar | Infrastructure & Deployment Engineer",
+      "description": "Reliable, documented, reproducible deployments. Cloud or self-hosted."
+    }
+  },
+  "home": {
+    "locale": "EN",
+    "placeholder": "Site under construction."
+  }
+}

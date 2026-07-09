@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "title": "Talon Dunbar | Ingénieur en Infrastructure et Déploiement",
+    "description": "Déploiements fiables, documentés et reproductibles pour les PME, les écoles et les fondateurs techniques. Cloud ou auto-hébergé.",
+    "openGraph": {
+      "title": "Talon Dunbar | Ingénieur en Infrastructure et Déploiement",
+      "description": "Déploiements fiables, documentés et reproductibles. Cloud ou auto-hébergé."
+    },
+    "twitter": {
+      "title": "Talon Dunbar | Ingénieur en Infrastructure et Déploiement",
+      "description": "Déploiements fiables, documentés et reproductibles. Cloud ou auto-hébergé."
+    }
+  },
+  "home": {
+    "locale": "FR",
+    "placeholder": "Site en construction."
+  }
+}
