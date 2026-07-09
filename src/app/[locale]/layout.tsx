@@ -10,6 +10,7 @@ import {
 import { NextIntlClientProvider } from "next-intl";
 import "../globals.css";
 import { routing } from "@/i18n/routing";
+import Navbar from "@/components/layout/Navbar";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -87,6 +88,7 @@ export default async function LocaleLayout({ children, params }: Props) {
     >
       <body className={`${inter.className} antialiased`}>
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <Navbar />
           <main>{children}</main>
         </NextIntlClientProvider>
       </body>

@@ -14,5 +14,15 @@
   "home": {
     "locale": "EN",
     "placeholder": "Site under construction."
+  },
+  "nav": {
+    "services": "Services",
+    "work": "Work",
+    "process": "Process",
+    "about": "About",
+    "contact": "Contact",
+    "contactMeAria": "Contact me",
+    "toggleMenuAria": "Toggle menu",
+    "toggleLanguageAria": "Switch language"
   }
 }
