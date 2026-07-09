@@ -24,5 +24,9 @@
     "contactMeAria": "Contact me",
     "toggleMenuAria": "Toggle menu",
     "toggleLanguageAria": "Switch language"
+  },
+  "footer": {
+    "rights": "© {year} Talon Dunbar. All rights reserved.",
+    "builtWith": "Built with"
   }
 }
