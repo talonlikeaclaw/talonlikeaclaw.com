@@ -35,6 +35,16 @@
     "title": "Comment je travaille",
     "subtitle": "Un cheminement clair et prévisible, de la première conversation à un système que vous pouvez gérer vous-même."
   },
+  "work": {
+    "title": "Réalisations",
+    "subtitle": "Quelques projets qui montrent ce que je peux construire, déployer et maintenir en marche.",
+    "linkCode": "Code",
+    "linkLive": "En ligne",
+    "seeMore": "Voir d'autres projets sur mon portfolio technique",
+    "viewPlain": "Simple",
+    "viewTechnical": "Technique",
+    "viewModeAria": "Basculer le niveau de détail"
+  },
   "nav": {
     "services": "Services",
     "work": "Réalisations",

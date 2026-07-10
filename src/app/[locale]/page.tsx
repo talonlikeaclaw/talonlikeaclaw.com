@@ -4,6 +4,7 @@ import TrustBand from "@/components/sections/TrustBand";
 import Services from "@/components/sections/Services";
 import WhoIHelp from "@/components/sections/WhoIHelp";
 import Process from "@/components/sections/Process";
+import Work from "@/components/sections/Work";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -20,6 +21,7 @@ export default async function Home({ params }: Props) {
       <Services />
       <WhoIHelp />
       <Process />
+      <Work />
     </>
   );
 }

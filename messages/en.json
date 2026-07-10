@@ -35,6 +35,16 @@
     "title": "How I Work",
     "subtitle": "A clear, predictable path from first conversation to a system you can run yourself."
   },
+  "work": {
+    "title": "Selected Work",
+    "subtitle": "A few projects that show what I can build, deploy, and keep running.",
+    "linkCode": "Code",
+    "linkLive": "Live",
+    "seeMore": "See more projects on my technical portfolio",
+    "viewPlain": "Plain",
+    "viewTechnical": "Technical",
+    "viewModeAria": "Toggle detail level"
+  },
   "nav": {
     "services": "Services",
     "work": "Work",
