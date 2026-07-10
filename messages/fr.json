@@ -52,6 +52,11 @@
     "credTitle": "Open source, éprouvé en pratique",
     "credBody": "Trouver le bon outil open source pour un besoin précis est une compétence que j'ai développée. Quand un problème se présente, je cherche les options, je teste les plus prometteuses dans mon propre homelab, et je recommande selon ce qui fonctionne vraiment, pas selon ce qui est vendu.",
     "githubLink": "Voir mes dépôts étoilés sur GitHub"
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Réponses aux questions que posent généralement les clients."
+  },
   "nav": {
     "services": "Services",
     "work": "Réalisations",

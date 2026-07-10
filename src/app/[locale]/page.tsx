@@ -6,6 +6,7 @@ import WhoIHelp from "@/components/sections/WhoIHelp";
 import Process from "@/components/sections/Process";
 import Work from "@/components/sections/Work";
 import About from "@/components/sections/About";
+import Faq from "@/components/sections/Faq";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -24,6 +25,7 @@ export default async function Home({ params }: Props) {
       <Process />
       <Work />
       <About />
+      <Faq />
     </>
   );
 }

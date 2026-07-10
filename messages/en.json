@@ -52,6 +52,11 @@
     "credTitle": "Open-source, tested in practice",
     "credBody": "Finding the right open-source tool for a specific need is a skill I've built. When a problem comes up, I research the options, test the promising ones in my own homelab, and recommend based on what actually works, not what's marketed.",
     "githubLink": "See what I've starred on GitHub"
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Answers to the questions clients usually ask."
+  },
   "nav": {
     "services": "Services",
     "work": "Work",
