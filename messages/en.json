@@ -57,6 +57,13 @@
     "title": "FAQ",
     "subtitle": "Answers to the questions clients usually ask."
   },
+  "contact": {
+    "title": "Let's work together",
+    "subtitle": "Tell me what you're trying to solve. If we're a fit, we start with an audit.",
+    "emailButton": "Email me",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
   "nav": {
     "services": "Services",
     "work": "Work",

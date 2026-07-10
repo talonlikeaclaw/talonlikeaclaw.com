@@ -25,8 +25,13 @@ body {
 }
 
 html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 1rem;
+  scroll-padding-top: 5rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 ::selection {

@@ -57,6 +57,13 @@
     "title": "FAQ",
     "subtitle": "Réponses aux questions que posent généralement les clients."
   },
+  "contact": {
+    "title": "Travaillons ensemble",
+    "subtitle": "Dites-moi ce que vous essayez de résoudre. Si nous sommes compatibles, nous commençons par un audit.",
+    "emailButton": "Écrivez-moi",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
   "nav": {
     "services": "Services",
     "work": "Réalisations",
