@@ -73,7 +73,8 @@
     "contact": "Contact",
     "contactMeAria": "Contact me",
     "toggleMenuAria": "Toggle menu",
-    "toggleLanguageAria": "Switch language"
+    "toggleLanguageAria": "Switch language",
+    "skipToContent": "Skip to content"
   },
   "footer": {
     "rights": "© {year} Talon Dunbar. All rights reserved.",

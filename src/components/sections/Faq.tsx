@@ -23,7 +23,7 @@ export default function Faq() {
                 <span>{item.question[locale]}</span>
                 <ChevronDown
                   size={20}
-                  className="shrink-0 text-muted transition-transform group-open:rotate-180"
+                  className="shrink-0 text-muted motion-safe:transition-transform motion-safe:group-open:rotate-180"
                 />
               </summary>
               <p className="pb-4 pr-8 leading-relaxed text-muted">

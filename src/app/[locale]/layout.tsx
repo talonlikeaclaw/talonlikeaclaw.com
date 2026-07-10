@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 import { hasLocale } from "next-intl";
@@ -30,6 +30,10 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
+export const viewport: Viewport = {
+  themeColor: "#0a0a0f",
+};
+
 export async function generateMetadata({
   params,
 }: {
@@ -60,8 +64,12 @@ export async function generateMetadata({
       index: true,
       follow: true,
     },
-    other: {
-      "theme-color": "#0a0a0f",
+    alternates: {
+      canonical: `/${locale}`,
+      languages: {
+        en: "/en",
+        fr: "/fr",
+      },
     },
   };
 }
@@ -81,6 +89,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   setRequestLocale(locale);
 
   const messages = await getMessages();
+  const t = await getTranslations("nav");
 
   return (
     <html
@@ -89,8 +98,14 @@ export default async function LocaleLayout({ children, params }: Props) {
     >
       <body className={`${inter.className} antialiased`}>
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <a
+            href="#main-content"
+            className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:border focus:border-accent focus:bg-card focus:px-4 focus:py-2 focus:text-text"
+          >
+            {t("skipToContent")}
+          </a>
           <Navbar />
-          <main>{children}</main>
+          <main id="main-content">{children}</main>
           <Footer />
         </NextIntlClientProvider>
       </body>
