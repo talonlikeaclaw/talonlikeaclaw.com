@@ -21,7 +21,7 @@ export default function Hero() {
           </p>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <a
-              href="mailto:talonlikeaclaw@proton.me"
+              href="#contact"
               className="rounded-lg border border-accent bg-accent/10 px-6 py-3 text-center font-mono font-medium text-accent transition-all hover:bg-accent hover:text-black focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
             >
               {t("ctaPrimary")}

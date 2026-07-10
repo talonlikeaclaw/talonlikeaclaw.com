@@ -21,14 +21,14 @@ export default function Contact() {
         <SectionHeading title={t("title")} subtitle={t("subtitle")} />
         <div className="mx-auto max-w-2xl text-center">
           <a
-            href="mailto:talonlikeaclaw@proton.me"
+            href="mailto:talon@talonlikeaclaw.com"
             className="inline-flex items-center gap-2 rounded-lg border border-accent bg-accent/10 px-8 py-4 font-mono text-lg font-medium text-accent transition-all hover:bg-accent hover:text-black focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
           >
             <Mail size={20} />
             <span>{t("emailButton")}</span>
           </a>
           <p className="mt-4 font-mono text-sm text-muted">
-            talonlikeaclaw@proton.me
+            talon@talonlikeaclaw.com
           </p>
           <div className="mt-8 flex justify-center gap-6">
             {secondaryLinks.map((link) => {
