@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import Container from "@/components/ui/Container";
 import SectionHeading from "@/components/ui/SectionHeading";
@@ -11,6 +12,17 @@ export default function About() {
       <Container>
         <SectionHeading title={t("title")} subtitle={t("subtitle")} />
         <div className="mx-auto max-w-3xl">
+          <div className="mx-auto mb-8 h-32 w-32 overflow-hidden rounded-full border-2 border-accent/20 sm:h-40 sm:w-40">
+            <Image
+              src="/headshot.jpg"
+              alt={t("photoAlt")}
+              width={160}
+              height={160}
+              sizes="(max-width: 640px) 128px, 160px"
+              className="h-full w-full object-cover"
+              priority
+            />
+          </div>
           <p className="text-center text-lg leading-relaxed text-muted">
             {t("bio")}
           </p>

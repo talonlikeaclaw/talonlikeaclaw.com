@@ -48,6 +48,7 @@
   "about": {
     "title": "About",
     "subtitle": "Who you'd be working with.",
+    "photoAlt": "Talon Dunbar",
     "bio": "I'm Talon Dunbar, a Computer Science graduate from Dawson College based in Montréal, Québec. My focus is the work that keeps software running: deployments, infrastructure, and the documentation that makes it maintainable. I work with small organizations in English and French.",
     "credTitle": "Open-source, tested in practice",
     "credBody": "Finding the right open-source tool for a specific need is a skill I've built. When a problem comes up, I research the options, test the promising ones in my own homelab, and recommend based on what actually works, not what's marketed.",
