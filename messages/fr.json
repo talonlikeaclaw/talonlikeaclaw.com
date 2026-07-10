@@ -45,6 +45,13 @@
     "viewTechnical": "Technique",
     "viewModeAria": "Basculer le niveau de détail"
   },
+  "about": {
+    "title": "À propos",
+    "subtitle": "Avec qui vous travailleriez.",
+    "bio": "Je suis Talon Dunbar, diplômé en informatique du Cégep Dawson, basé à Montréal, Québec. Je me concentre sur le travail qui permet aux logiciels de fonctionner : les déploiements, l'infrastructure et la documentation qui les rendent maintenables. Je travaille avec de petites organisations en anglais et en français.",
+    "credTitle": "Open source, éprouvé en pratique",
+    "credBody": "Trouver le bon outil open source pour un besoin précis est une compétence que j'ai développée. Quand un problème se présente, je cherche les options, je teste les plus prometteuses dans mon propre homelab, et je recommande selon ce qui fonctionne vraiment, pas selon ce qui est vendu.",
+    "githubLink": "Voir mes dépôts étoilés sur GitHub"
   "nav": {
     "services": "Services",
     "work": "Réalisations",
