@@ -1,67 +1,67 @@
 {
   "metadata": {
     "title": "Talon Dunbar | Ingénieur en Infrastructure et Déploiement",
-    "description": "J'aide les petites organisations à déployer, documenter et maintenir des applications et une infrastructure fiables dans le cloud ou sur leur propre matériel.",
+    "description": "Infrastructure et déploiement pour petites équipes. Cloud ou auto-hébergement, avec documentation claire et transfert sans casse-tête.",
     "openGraph": {
       "title": "Talon Dunbar | Ingénieur en Infrastructure et Déploiement",
-      "description": "J'aide les petites organisations à déployer et maintenir une infrastructure fiable et bien documentée. Cloud ou auto-hébergé."
+      "description": "Une infrastructure fiable et bien documentée pour les petites équipes. Cloud, auto-hébergement ou un bon mélange des deux."
     },
     "twitter": {
       "title": "Talon Dunbar | Ingénieur en Infrastructure et Déploiement",
-      "description": "J'aide les petites organisations à déployer et maintenir une infrastructure fiable et bien documentée. Cloud ou auto-hébergé."
+      "description": "Une infrastructure fiable et bien documentée pour les petites équipes. Cloud, auto-hébergement ou un bon mélange des deux."
     }
   },
   "hero": {
     "eyebrow": "Ingénierie d'infrastructure et de déploiement",
-    "headline": "Des déploiements fiables pour les logiciels dont votre organisation dépend.",
-    "subtext": "J'aide les petites organisations à déployer, documenter et maintenir des applications et une infrastructure fiables dans le cloud ou sur leur propre matériel.",
-    "ctaPrimary": "Commencer par un audit",
+    "headline": "Un bon logiciel mérite un environnement solide.",
+    "subtext": "J'aide les petites équipes à déployer, documenter et maintenir les systèmes dont elles dépendent. Cloud, auto-hébergement ou un bon mélange des deux.",
+    "ctaPrimary": "Parlez-moi de votre système",
     "ctaSecondary": "Voir le portfolio technique",
-    "proof": "Déploiements en production, CI/CD, sauvegardes et documentation à travers des projets réels.",
+    "proof": "Déploiements, CI/CD, surveillance, sauvegardes et documentation. Tout ce qui garde un logiciel en marche, même si ce n'est pas très glamour.",
     "location": "Basé à Montréal, Québec"
   },
   "trust": {
-    "framing": "À l'aise dans les environnements cloud gérés et auto-hébergés",
+    "framing": "Cloud géré ou auto-hébergement, selon ce dont votre système a besoin.",
     "cloudLabel": "Cloud",
     "selfHostedLabel": "Auto-hébergé"
   },
   "services": {
     "title": "Services",
-    "subtitle": "Comment je peux vous aider à lancer, stabiliser et garder vos systèmes en marche.",
-    "additionalTitle": "Capacités complémentaires",
-    "docNote": "Tout travail inclut la documentation et la transmission, pour que votre équipe puisse comprendre et maintenir ce que je construis."
+    "subtitle": "Tout ce qu'il faut derrière un déploiement qui tient la route.",
+    "additionalTitle": "Également pratique",
+    "docNote": "Tout vient avec de la documentation, pour que votre équipe et votre futur vous ne soient jamais laissés dans le noir."
   },
   "who": {
     "title": "Avec qui je travaille",
-    "subtitle": "Les organisations qui bénéficient le plus de ce type de travail."
+    "subtitle": "Les petites équipes qui ont besoin d'une infrastructure solide qui leur appartient."
   },
   "process": {
     "title": "Comment je travaille",
-    "subtitle": "Un cheminement clair et prévisible, de la première conversation à un système que vous pouvez gérer vous-même."
+    "subtitle": "Vous saurez ce qui se passe, pourquoi et quelle est la suite."
   },
   "work": {
     "title": "Réalisations",
-    "subtitle": "Quelques projets qui montrent ce que je peux construire, déployer et maintenir en marche.",
+    "subtitle": "Quelques systèmes que j'ai construits, déployés et gardés en marche.",
     "linkCode": "Code",
     "linkLive": "En ligne",
     "seeMore": "Voir d'autres projets sur mon portfolio technique"
   },
   "about": {
     "title": "À propos",
-    "subtitle": "Avec qui vous travailleriez.",
+    "subtitle": "La personne derrière le terminal.",
     "photoAlt": "Talon Dunbar",
-    "bio": "Je suis Talon Dunbar, diplômé en informatique du Cégep Dawson, basé à Montréal, Québec. Je me concentre sur le travail qui permet aux logiciels de fonctionner : les déploiements, l'infrastructure et la documentation qui rend les systèmes maintenables. Je travaille avec de petites organisations en anglais et en français.",
-    "credTitle": "Open source, éprouvé en pratique",
-    "credBody": "Je ne recommande pas d'outils sur la base du battage médiatique. Je cherche les options, je teste les plus prometteuses dans mon propre homelab, et je recommande ce qui fonctionne vraiment pour vos besoins.",
+    "bio": "Je suis Talon, ingénieur en infrastructure et déploiement à Montréal. J'aide les petites équipes à garder leurs logiciels fiables, compréhensibles et bien à elles. Je détiens un DEC en technologie informatique du Cégep Dawson. Je travaille en français et en anglais.",
+    "credTitle": "Curieux, mais pas influencé par le battage",
+    "credBody": "Je teste les outils open source prometteurs dans mon propre homelab avant de les recommander. Vous obtenez ce qui convient, pas simplement ce qui est à la mode.",
     "githubLink": "Voir mes dépôts étoilés sur GitHub"
   },
   "faq": {
     "title": "FAQ",
-    "subtitle": "Réponses aux questions que posent généralement les clients."
+    "subtitle": "Les bonnes questions à poser avant que je mette en place votre infrastructure."
   },
   "contact": {
-    "title": "Travaillons ensemble",
-    "subtitle": "Dites-moi ce que vous essayez de résoudre. Je poserai quelques questions, et si nous sommes compatibles, je recommanderai la meilleure prochaine étape, généralement un audit.",
+    "title": "Contactez-moi",
+    "subtitle": "Parlez-moi de votre système et de vos besoins.",
     "emailButton": "Écrivez-moi",
     "github": "GitHub",
     "linkedin": "LinkedIn"

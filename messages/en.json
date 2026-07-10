@@ -1,67 +1,67 @@
 {
   "metadata": {
     "title": "Talon Dunbar | Infrastructure & Deployment Engineer",
-    "description": "I help small organizations deploy, document, and maintain reliable applications and infrastructure in the cloud or on their own hardware.",
+    "description": "Infrastructure and deployment help for small teams. Cloud or self-hosted, with clear documentation and reliable handoff.",
     "openGraph": {
       "title": "Talon Dunbar | Infrastructure & Deployment Engineer",
-      "description": "I help small organizations deploy and maintain reliable, well-documented infrastructure. Cloud or self-hosted."
+      "description": "Reliable, well-documented infrastructure for small teams. Cloud, self-hosted, or a sensible mix of both."
     },
     "twitter": {
       "title": "Talon Dunbar | Infrastructure & Deployment Engineer",
-      "description": "I help small organizations deploy and maintain reliable, well-documented infrastructure. Cloud or self-hosted."
+      "description": "Reliable, well-documented infrastructure for small teams. Cloud, self-hosted, or a sensible mix of both."
     }
   },
   "hero": {
     "eyebrow": "Infrastructure & Deployment Engineering",
-    "headline": "Reliable deployments for the software your organization depends on.",
-    "subtext": "I help small organizations deploy, document, and maintain reliable applications and infrastructure in the cloud or on their own hardware.",
-    "ctaPrimary": "Start with an audit",
+    "headline": "Good software deserves a solid place to run.",
+    "subtext": "I help small teams deploy, document, and maintain the systems they depend on. Cloud, self-hosted, or a sensible mix of both.",
+    "ctaPrimary": "Tell me about your setup",
     "ctaSecondary": "View technical portfolio",
-    "proof": "Production deployments, CI/CD, backups, and documentation across real-world projects.",
+    "proof": "Deployments, CI/CD, monitoring, backups, and docs. All the unglamorous bits that keep software running.",
     "location": "Based in Montréal, Québec"
   },
   "trust": {
-    "framing": "Comfortable in managed cloud and self-hosted environments",
+    "framing": "Managed cloud or self-hosted, depending on what your setup needs.",
     "cloudLabel": "Cloud",
     "selfHostedLabel": "Self-hosted"
   },
   "services": {
     "title": "Services",
-    "subtitle": "How I can help you launch, stabilize, and keep systems running.",
-    "additionalTitle": "Additional capabilities",
-    "docNote": "All work includes documentation and handoff, so your team can understand and maintain what I build."
+    "subtitle": "The useful stuff behind a deployment that stays up.",
+    "additionalTitle": "Also handy",
+    "docNote": "Everything comes with docs, so future-you and your team are not left guessing."
   },
   "who": {
     "title": "Who I Work With",
-    "subtitle": "Organizations that benefit most from this kind of work."
+    "subtitle": "Small teams that need solid infrastructure they own."
   },
   "process": {
     "title": "How I Work",
-    "subtitle": "A clear, predictable path from first conversation to a system you can run yourself."
+    "subtitle": "You will know what is happening, why, and what comes next."
   },
   "work": {
     "title": "Selected Work",
-    "subtitle": "A few projects that show what I can build, deploy, and keep running.",
+    "subtitle": "A few systems I have built, shipped, and kept running.",
     "linkCode": "Code",
     "linkLive": "Live",
     "seeMore": "See more projects on my technical portfolio"
   },
   "about": {
     "title": "About",
-    "subtitle": "Who you'd be working with.",
+    "subtitle": "The person behind the terminal.",
     "photoAlt": "Talon Dunbar",
-    "bio": "I'm Talon Dunbar, a Computer Science graduate from Dawson College based in Montréal, Québec. I focus on the work that keeps software running: deployments, infrastructure, and the documentation that makes systems maintainable. I work with small organizations in English and French.",
-    "credTitle": "Open-source, tested in practice",
-    "credBody": "I don't recommend tools based on hype. I research the options, test promising ones in my own homelab, and recommend what actually works for your needs.",
+    "bio": "I'm Talon, an infrastructure and deployment engineer in Montréal. I help small teams keep their software dependable, understandable, and firmly under their control. I hold a DEC in Computer Science Technology from Dawson College. I work in English and French.",
+    "credTitle": "Curious, not hype-driven",
+    "credBody": "I test promising open-source tools in my own homelab before I recommend them. You get the option that fits, not whatever happens to be trending.",
     "githubLink": "See what I've starred on GitHub"
   },
   "faq": {
     "title": "FAQ",
-    "subtitle": "Answers to the questions clients usually ask."
+    "subtitle": "The sensible questions to ask before I setup your infrastructure."
   },
   "contact": {
-    "title": "Let's work together",
-    "subtitle": "Tell me what you're trying to solve. I'll ask a few questions, and if we're a fit, I'll recommend the best next step, usually an audit.",
+    "title": "Get in touch",
+    "subtitle": "Tell me about your setup and what you need help with.",
     "emailButton": "Email me",
     "github": "GitHub",
     "linkedin": "LinkedIn"

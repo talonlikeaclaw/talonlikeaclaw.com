@@ -18,10 +18,10 @@ export interface Service {
 export const services: Service[] = [
   {
     icon: Rocket,
-    title: { en: "Production Deployment", fr: "Déploiement en production" },
+    title: { en: "Application Deployment", fr: "Déploiement d'applications" },
     description: {
-      en: "Get your application deployed and live, fast. I containerize your app, configure the environment, and ship it to the cloud or your own hardware with monitoring and backups in place.",
-      fr: "Déployez votre application et mettez-la en ligne, rapidement. Je conteneurise votre application, configure l'environnement et la livre sur le cloud ou votre propre matériel avec surveillance et sauvegardes en place.",
+      en: "Get your app live without crossing your fingers. I package it, configure its environment, and add monitoring and backups from day one.",
+      fr: "Mettez votre application en ligne sans croiser les doigts. Je la conteneurise, configure son environnement et ajoute surveillance et sauvegardes dès le départ.",
     },
   },
   {
@@ -31,24 +31,24 @@ export const services: Service[] = [
       fr: "Configuration de l'infrastructure",
     },
     description: {
-      en: "Build out servers, networking, and storage from scratch. I set up virtualization, containers, and automated configuration so your infrastructure is reproducible and documented.",
-      fr: "Construisez vos serveurs, votre réseau et votre stockage à partir de zéro. Je configure la virtualisation, les conteneurs et l'automatisation pour que votre infrastructure soit reproductible et documentée.",
+      en: "Start with infrastructure your team can actually understand. I set up servers, networking, storage, and automation so the whole thing is reproducible and documented.",
+      fr: "Partez avec une infrastructure que votre équipe peut vraiment comprendre. Je configure serveurs, réseau, stockage et automatisation pour que tout soit reproductible et documenté.",
     },
   },
   {
     icon: ArrowLeftRight,
     title: { en: "Migration", fr: "Migration" },
     description: {
-      en: "Move existing applications and servers to new infrastructure with minimal downtime. I plan the cutover, migrate data, and verify everything works before the switch.",
-      fr: "Déplacez vos applications et serveurs existants vers une nouvelle infrastructure avec un minimum d'indisponibilité. Je planifie le basculement, migre les données et vérifie que tout fonctionne avant la transition.",
+      en: "Move without the usual moving-day chaos. I plan the cutover, migrate your data, and test the new setup before traffic follows.",
+      fr: "Changez d'infrastructure sans le chaos d'un jour de déménagement. Je planifie la transition, migre les données et teste le nouveau système avant d'y envoyer le trafic.",
     },
   },
   {
     icon: LifeBuoy,
     title: { en: "Maintenance & Support", fr: "Maintenance et support" },
     description: {
-      en: "Keep systems running with an ongoing retainer. I handle updates, monitor for issues, verify backups, and fix problems before they reach your users.",
-      fr: "Gardez vos systèmes en fonctionnement avec un forfait continu. Je gère les mises à jour, surveille les problèmes, vérifie les sauvegardes et règle les incidents avant qu'ils n'atteignent vos utilisateurs.",
+      en: "Keep things healthy after launch. I handle updates, watch for trouble, check backups, and fix issues before they become everyone else's problem.",
+      fr: "Gardez vos systèmes en santé après le lancement. Je gère les mises à jour, surveille les problèmes, vérifie les sauvegardes et règle les incidents avant qu'ils ne touchent vos utilisateurs.",
     },
   },
 ];
@@ -58,16 +58,16 @@ export const additionalServices: Service[] = [
     icon: Activity,
     title: { en: "Monitoring & Alerts", fr: "Surveillance et alertes" },
     description: {
-      en: "Know when something breaks before your users tell you. I set up uptime checks, alerts, dashboards, and log visibility so issues are easier to detect and respond to quickly.",
-      fr: "Soyez averti lorsqu'un problème survient avant que vos utilisateurs ne vous le signalent. Je mets en place des vérifications de disponibilité, des alertes, des tableaux de bord et une visibilité sur les logs pour détecter et résoudre les incidents rapidement.",
+      en: "Hear about problems from your monitoring, not your users. Get useful alerts, dashboards, and logs without drowning in noise.",
+      fr: "Apprenez les problèmes par votre surveillance, pas par vos utilisateurs. Obtenez des alertes, tableaux de bord et journaux utiles, sans vous noyer dans le bruit.",
     },
   },
   {
     icon: Boxes,
     title: { en: "Self-hosting Consulting", fr: "Conseil en auto-hébergement" },
     description: {
-      en: "Draw on deep, hands-on knowledge of the open-source landscape. I evaluate and self-host dozens of tools in my own homelab, so I can recommend and configure the right stack for your exact needs.",
-      fr: "Profitez d'une connaissance approfondie et concrète du paysage open source. J'évalue et j'auto-héberge des dizaines d'outils dans mon propre homelab, ce qui me permet de recommander et configurer la bonne pile pour vos besoins précis.",
+      en: "Choose open-source tools that fit your needs and your appetite for maintenance. I help you compare, configure, and own the right stack.",
+      fr: "Choisissez des outils open source adaptés à vos besoins et à votre envie de les maintenir. Je vous aide à comparer, configurer et prendre en main la bonne solution.",
     },
   },
 ];

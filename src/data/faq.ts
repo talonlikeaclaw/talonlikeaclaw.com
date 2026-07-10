@@ -12,8 +12,8 @@ export const faq: FaqItem[] = [
       fr: "Cloud ou auto-hébergé : lequel choisir ?",
     },
     answer: {
-      en: "It depends on your team, budget, and data needs. Cloud is faster to set up and scales easily; self-hosting gives you control and lower long-term costs but needs hardware or someone to maintain it. I assess your situation and recommend honestly, even if that means a mix of both.",
-      fr: "Cela dépend de votre équipe, de votre budget et de vos besoins en données. Le cloud est plus rapide à mettre en place et évolue facilement. L'auto-hébergement offre du contrôle et des coûts réduits à long terme, mais nécessite du matériel ou quelqu'un pour le maintenir. J'évalue votre situation et je recommande honnêtement, même s'il s'agit d'un mélange des deux.",
+      en: "It depends. Cloud is quick to start and easy to scale. Self-hosting gives you more control, but someone still has to care for the hardware. I will recommend what fits, including a mix of both when that is the sensible answer.",
+      fr: "Ça dépend. Le cloud démarre vite et évolue facilement. L'auto-hébergement donne plus de contrôle, mais quelqu'un doit s'occuper du matériel. Je recommande ce qui convient, y compris un mélange des deux quand c'est la réponse la plus sensée.",
     },
   },
   {
@@ -22,8 +22,8 @@ export const faq: FaqItem[] = [
       fr: "Comment fixez-vous vos prix ?",
     },
     answer: {
-      en: "I work on a project basis with fixed quotes agreed up front, so you know the cost before we start. For ongoing support, I offer monthly retainers. Pricing depends on scope, complexity, and the level of ongoing responsibility involved.",
-      fr: "Je travaille au forfait avec des prix fixes convenus à l'avance, pour que vous connaissiez le coût avant de commencer. Pour le soutien continu, j'offre des forfaits mensuels. Le prix dépend de la portée, de la complexité et du niveau de responsabilité continue requis.",
+      en: "Most projects use a fixed quote agreed before work starts. Ongoing support uses a monthly retainer. The price depends on scope, complexity, and how much responsibility you want me to take on.",
+      fr: "La plupart des projets sont facturés à prix fixe, convenu avant le début du travail. Le soutien continu fonctionne avec un forfait mensuel. Le prix dépend de la portée, de la complexité et du niveau de responsabilité souhaité.",
     },
   },
   {
@@ -32,8 +32,8 @@ export const faq: FaqItem[] = [
       fr: "Serai-je dépendant de vous après le projet ?",
     },
     answer: {
-      en: "No. Everything I build comes with plain-language documentation, so your team can understand and maintain it. I'm available for ongoing support if you want it, but you're never locked in.",
-      fr: "Non. Tout ce que je construis est accompagné d'une documentation claire, pour que votre équipe puisse comprendre et maintenir le système. Je suis disponible pour un soutien continu si vous le souhaitez, mais vous n'êtes jamais prisonnier.",
+      en: "No. You get clear documentation and ownership of the setup. I can stay involved if you want support, but leaving should never require an escape plan.",
+      fr: "Non. Vous recevez une documentation claire et gardez le contrôle du système. Je peux rester disponible si vous voulez du soutien, mais partir ne devrait jamais demander un plan d'évasion.",
     },
   },
   {
@@ -42,8 +42,8 @@ export const faq: FaqItem[] = [
       fr: "Offrez-vous du soutien continu ?",
     },
     answer: {
-      en: "Yes. Through a monthly retainer I handle updates, monitor for issues, verify backups, and fix problems before they reach your users. You can also bring me back for one-off work anytime.",
-      fr: "Oui. Via un forfait mensuel, je gère les mises à jour, surveille les problèmes, vérifie les sauvegardes et règle les incidents avant qu'ils n'atteignent vos utilisateurs. Vous pouvez aussi me rappeler pour du travail ponctuel à tout moment.",
+      en: "Yes. A monthly retainer can cover updates, monitoring, backup checks, and incident response. You can also bring me back for one-off work when needed.",
+      fr: "Oui. Un forfait mensuel peut couvrir les mises à jour, la surveillance, la vérification des sauvegardes et les incidents. Vous pouvez aussi me rappeler pour un besoin ponctuel.",
     },
   },
   {
@@ -52,8 +52,8 @@ export const faq: FaqItem[] = [
       fr: "Pouvez-vous travailler avec mon équipe ou ma pile technique existante ?",
     },
     answer: {
-      en: "Absolutely. I partner with dev and design agencies and can slot into your existing workflow and tooling. If you have a team, I document everything so they can take over confidently.",
-      fr: "Absolument. Je travaille avec des agences de développement et de design et je peux m'intégrer à votre flux de travail et à vos outils existants. Si vous avez une équipe, je documente tout pour qu'elle puisse reprendre le flambeau en confiance.",
+      en: "Absolutely. I can work with your developers, designers, tools, and existing workflow. I document what changes so your team can take over with confidence.",
+      fr: "Absolument. Je peux travailler avec vos développeurs, designers, outils et méthodes actuelles. Je documente les changements pour que votre équipe puisse reprendre le tout en confiance.",
     },
   },
   {
@@ -62,8 +62,8 @@ export const faq: FaqItem[] = [
       fr: "Travaillez-vous à distance ou sur place ?",
     },
     answer: {
-      en: "I'm based in Montréal and work with clients remotely across Québec and beyond. On-site visits are possible for local projects when it makes sense.",
-      fr: "Je suis basé à Montréal et je travaille à distance avec des clients partout au Québec et ailleurs. Des visites sur place sont possibles pour les projets locaux lorsque cela a du sens.",
+      en: "Both. I work remotely with clients across Québec and beyond. For local Montréal projects, I can visit on-site when it is genuinely useful.",
+      fr: "Les deux. Je travaille à distance avec des clients au Québec et ailleurs. Pour les projets montréalais, je peux me déplacer quand une visite est vraiment utile.",
     },
   },
   {
@@ -72,8 +72,8 @@ export const faq: FaqItem[] = [
       fr: "Comment commencer ?",
     },
     answer: {
-      en: "Send me an email and tell me what you're trying to solve. I'll reply with a few questions, and if we're a fit, we start with an audit to map out the work before anything moves.",
-      fr: "Écrivez-moi et dites-moi ce que vous essayez de résoudre. Je répondrai avec quelques questions, et si nous sommes compatibles, nous commençons par un audit pour planifier le travail avant tout déplacement.",
+      en: "Send me an email with the problem, the setup, or even the messy version of both. I will ask a few questions, then suggest the most useful next step. That is often an audit, but not always.",
+      fr: "Envoyez-moi un courriel avec le problème, le système ou même la version un peu brouillon des deux. Je poserai quelques questions, puis proposerai la prochaine étape la plus utile. C'est souvent un audit, mais pas toujours.",
     },
   },
 ];
