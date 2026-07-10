@@ -1,60 +1,19 @@
-"use client";
-
-import { useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import Image from "next/image";
 import { Github, ExternalLink, ArrowRight } from "lucide-react";
 import Container from "@/components/ui/Container";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { caseStudies } from "@/data/work";
-import { cn } from "@/lib/utils";
 import type { Locale } from "@/i18n/routing";
-
-type View = "plain" | "technical";
 
 export default function Work() {
   const t = useTranslations("work");
   const locale = useLocale() as Locale;
-  const [view, setView] = useState<View>("plain");
 
   return (
     <section id="work" className="py-20">
       <Container>
         <SectionHeading title={t("title")} subtitle={t("subtitle")} />
-        <div className="mb-10 flex justify-center">
-          <div
-            className="inline-flex items-center rounded-lg border border-border bg-card p-1"
-            role="group"
-            aria-label={t("viewModeAria")}
-          >
-            <button
-              type="button"
-              onClick={() => setView("plain")}
-              aria-pressed={view === "plain"}
-              className={cn(
-                "rounded-md px-4 py-1.5 font-mono text-sm transition-colors focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2",
-                view === "plain"
-                  ? "bg-accent/10 text-accent"
-                  : "text-muted hover:text-text",
-              )}
-            >
-              {t("viewPlain")}
-            </button>
-            <button
-              type="button"
-              onClick={() => setView("technical")}
-              aria-pressed={view === "technical"}
-              className={cn(
-                "rounded-md px-4 py-1.5 font-mono text-sm transition-colors focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2",
-                view === "technical"
-                  ? "bg-accent/10 text-accent"
-                  : "text-muted hover:text-text",
-              )}
-            >
-              {t("viewTechnical")}
-            </button>
-          </div>
-        </div>
         <div className="space-y-6">
           {caseStudies.map((project) => (
             <article
@@ -85,7 +44,7 @@ export default function Work() {
                   <ul className="mt-4 space-y-2">
                     {project.highlights.map((highlight) => (
                       <li
-                        key={highlight.technical.en}
+                        key={highlight.text.en}
                         className="flex gap-2 text-sm leading-relaxed text-muted"
                       >
                         <span
@@ -94,24 +53,7 @@ export default function Work() {
                         >
                           ▸
                         </span>
-                        <span className="grid min-w-0 flex-1">
-                          <span
-                            className={cn(
-                              "col-start-1 row-start-1",
-                              view !== "plain" && "invisible",
-                            )}
-                          >
-                            {highlight.plain[locale]}
-                          </span>
-                          <span
-                            className={cn(
-                              "col-start-1 row-start-1",
-                              view !== "technical" && "invisible",
-                            )}
-                          >
-                            {highlight.technical[locale]}
-                          </span>
-                        </span>
+                        <span>{highlight.text[locale]}</span>
                       </li>
                     ))}
                   </ul>

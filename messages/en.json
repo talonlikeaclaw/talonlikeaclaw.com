@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Talon Dunbar | Infrastructure & Deployment Engineer",
-    "description": "I help small organizations deploy and maintain reliable, well-documented applications and infrastructure, in the cloud or on their own hardware.",
+    "description": "I help small organizations deploy, document, and maintain reliable applications and infrastructure in the cloud or on their own hardware.",
     "openGraph": {
       "title": "Talon Dunbar | Infrastructure & Deployment Engineer",
       "description": "I help small organizations deploy and maintain reliable, well-documented infrastructure. Cloud or self-hosted."
@@ -14,18 +14,22 @@
   "hero": {
     "eyebrow": "Infrastructure & Deployment Engineering",
     "headline": "Reliable deployments for the software your organization depends on.",
-    "subtext": "I help small businesses, agencies, and technical founders deploy, document, and maintain applications and servers in the cloud or on their own hardware.",
-    "ctaPrimary": "Get in touch",
+    "subtext": "I help small organizations deploy, document, and maintain reliable applications and infrastructure in the cloud or on their own hardware.",
+    "ctaPrimary": "Start with an audit",
     "ctaSecondary": "View technical portfolio",
+    "proof": "Production deployments, CI/CD, backups, and documentation across real-world projects.",
     "location": "Based in Montréal, Québec"
   },
   "trust": {
+    "framing": "Comfortable in managed cloud and self-hosted environments",
     "cloudLabel": "Cloud",
     "selfHostedLabel": "Self-hosted"
   },
   "services": {
     "title": "Services",
-    "subtitle": "How I can help you ship and stay running."
+    "subtitle": "How I can help you launch, stabilize, and keep systems running.",
+    "additionalTitle": "Additional capabilities",
+    "docNote": "All work includes documentation and handoff, so your team can understand and maintain what I build."
   },
   "who": {
     "title": "Who I Work With",
@@ -40,18 +44,15 @@
     "subtitle": "A few projects that show what I can build, deploy, and keep running.",
     "linkCode": "Code",
     "linkLive": "Live",
-    "seeMore": "See more projects on my technical portfolio",
-    "viewPlain": "Plain",
-    "viewTechnical": "Technical",
-    "viewModeAria": "Toggle detail level"
+    "seeMore": "See more projects on my technical portfolio"
   },
   "about": {
     "title": "About",
     "subtitle": "Who you'd be working with.",
     "photoAlt": "Talon Dunbar",
-    "bio": "I'm Talon Dunbar, a Computer Science graduate from Dawson College based in Montréal, Québec. My focus is the work that keeps software running: deployments, infrastructure, and the documentation that makes it maintainable. I work with small organizations in English and French.",
+    "bio": "I'm Talon Dunbar, a Computer Science graduate from Dawson College based in Montréal, Québec. I focus on the work that keeps software running: deployments, infrastructure, and the documentation that makes systems maintainable. I work with small organizations in English and French.",
     "credTitle": "Open-source, tested in practice",
-    "credBody": "Finding the right open-source tool for a specific need is a skill I've built. When a problem comes up, I research the options, test the promising ones in my own homelab, and recommend based on what actually works, not what's marketed.",
+    "credBody": "I don't recommend tools based on hype. I research the options, test promising ones in my own homelab, and recommend what actually works for your needs.",
     "githubLink": "See what I've starred on GitHub"
   },
   "faq": {
@@ -60,7 +61,7 @@
   },
   "contact": {
     "title": "Let's work together",
-    "subtitle": "Tell me what you're trying to solve. If we're a fit, we start with an audit.",
+    "subtitle": "Tell me what you're trying to solve. I'll ask a few questions, and if we're a fit, I'll recommend the best next step, usually an audit.",
     "emailButton": "Email me",
     "github": "GitHub",
     "linkedin": "LinkedIn"

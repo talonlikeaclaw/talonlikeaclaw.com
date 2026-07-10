@@ -22,8 +22,8 @@ export const faq: FaqItem[] = [
       fr: "Comment fixez-vous vos prix ?",
     },
     answer: {
-      en: "I work on a project basis with fixed quotes agreed up front, so you know the cost before we start. For ongoing support, I offer monthly retainers. Every quote is based on scope, not hourly guesswork.",
-      fr: "Je travaille au forfait avec des prix fixes convenus à l'avance, pour que vous connaissiez le coût avant de commencer. Pour le soutien continu, j'offre des forfaits mensuels. Chaque devis est basé sur la portée du projet, pas sur un décompte horaire.",
+      en: "I work on a project basis with fixed quotes agreed up front, so you know the cost before we start. For ongoing support, I offer monthly retainers. Pricing depends on scope, complexity, and the level of ongoing responsibility involved.",
+      fr: "Je travaille au forfait avec des prix fixes convenus à l'avance, pour que vous connaissiez le coût avant de commencer. Pour le soutien continu, j'offre des forfaits mensuels. Le prix dépend de la portée, de la complexité et du niveau de responsabilité continue requis.",
     },
   },
   {

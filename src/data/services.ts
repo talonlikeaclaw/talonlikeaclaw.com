@@ -18,7 +18,7 @@ export interface Service {
 export const services: Service[] = [
   {
     icon: Rocket,
-    title: { en: "Deployment Sprint", fr: "Sprint de déploiement" },
+    title: { en: "Production Deployment", fr: "Déploiement en production" },
     description: {
       en: "Get your application deployed and live, fast. I containerize your app, configure the environment, and ship it to the cloud or your own hardware with monitoring and backups in place.",
       fr: "Déployez votre application et mettez-la en ligne, rapidement. Je conteneurise votre application, configure l'environnement et la livre sur le cloud ou votre propre matériel avec surveillance et sauvegardes en place.",
@@ -36,11 +36,11 @@ export const services: Service[] = [
     },
   },
   {
-    icon: Activity,
-    title: { en: "Monitoring & Alerts", fr: "Surveillance et alertes" },
+    icon: ArrowLeftRight,
+    title: { en: "Migration", fr: "Migration" },
     description: {
-      en: "Know when something breaks before your users tell you. I set up uptime checks, alerts, dashboards, and log visibility so issues are easier to detect and respond to quickly.",
-      fr: "Soyez averti lorsqu'un problème survient avant que vos utilisateurs ne vous le signalent. Je mets en place des vérifications de disponibilité, des alertes, des tableaux de bord et une visibilité sur les logs pour détecter et résoudre les incidents rapidement.",
+      en: "Move existing applications and servers to new infrastructure with minimal downtime. I plan the cutover, migrate data, and verify everything works before the switch.",
+      fr: "Déplacez vos applications et serveurs existants vers une nouvelle infrastructure avec un minimum d'indisponibilité. Je planifie le basculement, migre les données et vérifie que tout fonctionne avant la transition.",
     },
   },
   {
@@ -51,12 +51,15 @@ export const services: Service[] = [
       fr: "Gardez vos systèmes en fonctionnement avec un forfait continu. Je gère les mises à jour, surveille les problèmes, vérifie les sauvegardes et règle les incidents avant qu'ils n'atteignent vos utilisateurs.",
     },
   },
+];
+
+export const additionalServices: Service[] = [
   {
-    icon: ArrowLeftRight,
-    title: { en: "Migration", fr: "Migration" },
+    icon: Activity,
+    title: { en: "Monitoring & Alerts", fr: "Surveillance et alertes" },
     description: {
-      en: "Move existing applications and servers to new infrastructure with minimal downtime. I plan the cutover, migrate data, and verify everything works before the switch.",
-      fr: "Déplacez vos applications et serveurs existants vers une nouvelle infrastructure avec un minimum d'indisponibilité. Je planifie le basculement, migre les données et vérifie que tout fonctionne avant la transition.",
+      en: "Know when something breaks before your users tell you. I set up uptime checks, alerts, dashboards, and log visibility so issues are easier to detect and respond to quickly.",
+      fr: "Soyez averti lorsqu'un problème survient avant que vos utilisateurs ne vous le signalent. Je mets en place des vérifications de disponibilité, des alertes, des tableaux de bord et une visibilité sur les logs pour détecter et résoudre les incidents rapidement.",
     },
   },
   {

@@ -1,7 +1,6 @@
 import {
   Building2,
   Network,
-  HeartHandshake,
   Code2,
   type LucideIcon,
 } from "lucide-react";
@@ -26,16 +25,8 @@ export const audiences: Audience[] = [
     icon: Network,
     title: { en: "Agencies", fr: "Agences" },
     description: {
-      en: "Outsource the hosting, deployment, and DevOps for your client projects to someone who documents everything. I partner with dev and design agencies that need reliable infrastructure they can hand off with confidence.",
-      fr: "Externalisez l'hébergement, le déploiement et le DevOps de vos projets clients auprès de quelqu'un qui documente tout. Je travaille avec des agences de développement et de design qui ont besoin d'une infrastructure fiable à transmettre en toute confiance.",
-    },
-  },
-  {
-    icon: HeartHandshake,
-    title: { en: "Nonprofits", fr: "Organismes sans but lucratif" },
-    description: {
-      en: "Stretch limited resources with self-hosted or low-cost cloud setups that stay documented and maintainable by volunteers and small teams.",
-      fr: "Tirez le maximum de ressources limitées avec des installations auto-hébergées ou cloud à faible coût qui restent documentées et maintenables par des bénévoles et de petites équipes.",
+      en: "Reliable infrastructure for your client projects, without the DevOps overhead. I handle hosting, deployment, and documentation so your agency can hand off with confidence.",
+      fr: "Une infrastructure fiable pour vos projets clients, sans le fardeau du DevOps. Je gère l'hébergement, le déploiement et la documentation pour que votre agence puisse transmettre en toute confiance.",
     },
   },
   {

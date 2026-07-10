@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Talon Dunbar | Ingénieur en Infrastructure et Déploiement",
-    "description": "J'aide les petites organisations à déployer et maintenir des applications et une infrastructure fiables et bien documentées, dans le cloud ou sur leur propre matériel.",
+    "description": "J'aide les petites organisations à déployer, documenter et maintenir des applications et une infrastructure fiables dans le cloud ou sur leur propre matériel.",
     "openGraph": {
       "title": "Talon Dunbar | Ingénieur en Infrastructure et Déploiement",
       "description": "J'aide les petites organisations à déployer et maintenir une infrastructure fiable et bien documentée. Cloud ou auto-hébergé."
@@ -14,18 +14,22 @@
   "hero": {
     "eyebrow": "Ingénierie d'infrastructure et de déploiement",
     "headline": "Des déploiements fiables pour les logiciels dont votre organisation dépend.",
-    "subtext": "J'aide les petites entreprises, les agences et les fondateurs techniques à déployer, documenter et maintenir des applications et des serveurs dans le cloud ou sur leur propre matériel.",
-    "ctaPrimary": "Me contacter",
+    "subtext": "J'aide les petites organisations à déployer, documenter et maintenir des applications et une infrastructure fiables dans le cloud ou sur leur propre matériel.",
+    "ctaPrimary": "Commencer par un audit",
     "ctaSecondary": "Voir le portfolio technique",
+    "proof": "Déploiements en production, CI/CD, sauvegardes et documentation à travers des projets réels.",
     "location": "Basé à Montréal, Québec"
   },
   "trust": {
+    "framing": "À l'aise dans les environnements cloud gérés et auto-hébergés",
     "cloudLabel": "Cloud",
     "selfHostedLabel": "Auto-hébergé"
   },
   "services": {
     "title": "Services",
-    "subtitle": "Comment je peux vous aider à livrer et rester en ligne."
+    "subtitle": "Comment je peux vous aider à lancer, stabiliser et garder vos systèmes en marche.",
+    "additionalTitle": "Capacités complémentaires",
+    "docNote": "Tout travail inclut la documentation et la transmission, pour que votre équipe puisse comprendre et maintenir ce que je construis."
   },
   "who": {
     "title": "Avec qui je travaille",
@@ -40,18 +44,15 @@
     "subtitle": "Quelques projets qui montrent ce que je peux construire, déployer et maintenir en marche.",
     "linkCode": "Code",
     "linkLive": "En ligne",
-    "seeMore": "Voir d'autres projets sur mon portfolio technique",
-    "viewPlain": "Simple",
-    "viewTechnical": "Technique",
-    "viewModeAria": "Basculer le niveau de détail"
+    "seeMore": "Voir d'autres projets sur mon portfolio technique"
   },
   "about": {
     "title": "À propos",
     "subtitle": "Avec qui vous travailleriez.",
     "photoAlt": "Talon Dunbar",
-    "bio": "Je suis Talon Dunbar, diplômé en informatique du Cégep Dawson, basé à Montréal, Québec. Je me concentre sur le travail qui permet aux logiciels de fonctionner : les déploiements, l'infrastructure et la documentation qui les rendent maintenables. Je travaille avec de petites organisations en anglais et en français.",
+    "bio": "Je suis Talon Dunbar, diplômé en informatique du Cégep Dawson, basé à Montréal, Québec. Je me concentre sur le travail qui permet aux logiciels de fonctionner : les déploiements, l'infrastructure et la documentation qui rend les systèmes maintenables. Je travaille avec de petites organisations en anglais et en français.",
     "credTitle": "Open source, éprouvé en pratique",
-    "credBody": "Trouver le bon outil open source pour un besoin précis est une compétence que j'ai développée. Quand un problème se présente, je cherche les options, je teste les plus prometteuses dans mon propre homelab, et je recommande selon ce qui fonctionne vraiment, pas selon ce qui est vendu.",
+    "credBody": "Je ne recommande pas d'outils sur la base du battage médiatique. Je cherche les options, je teste les plus prometteuses dans mon propre homelab, et je recommande ce qui fonctionne vraiment pour vos besoins.",
     "githubLink": "Voir mes dépôts étoilés sur GitHub"
   },
   "faq": {
@@ -60,7 +61,7 @@
   },
   "contact": {
     "title": "Travaillons ensemble",
-    "subtitle": "Dites-moi ce que vous essayez de résoudre. Si nous sommes compatibles, nous commençons par un audit.",
+    "subtitle": "Dites-moi ce que vous essayez de résoudre. Je poserai quelques questions, et si nous sommes compatibles, je recommanderai la meilleure prochaine étape, généralement un audit.",
     "emailButton": "Écrivez-moi",
     "github": "GitHub",
     "linkedin": "LinkedIn"
