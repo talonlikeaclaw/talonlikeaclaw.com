@@ -12,7 +12,7 @@ export default function WhoIHelp() {
     <section id="who" className="py-20">
       <Container>
         <SectionHeading title={t("title")} subtitle={t("subtitle")} />
-        <div className="grid gap-6 sm:grid-cols-2">
+        <div className="grid gap-6 md:grid-cols-3">
           {audiences.map((audience) => {
             const Icon = audience.icon;
             return (

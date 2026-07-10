@@ -1,7 +1,7 @@
 import { useTranslations, useLocale } from "next-intl";
 import Container from "@/components/ui/Container";
 import SectionHeading from "@/components/ui/SectionHeading";
-import { services } from "@/data/services";
+import { services, additionalServices } from "@/data/services";
 import type { Locale } from "@/i18n/routing";
 
 export default function Services() {
@@ -34,6 +34,37 @@ export default function Services() {
             );
           })}
         </div>
+        <div className="mt-10">
+          <p className="mb-4 font-mono text-sm uppercase tracking-wider text-muted">
+            {t("additionalTitle")}
+          </p>
+          <div className="grid gap-4 sm:grid-cols-2">
+            {additionalServices.map((service) => {
+              const Icon = service.icon;
+              return (
+                <div
+                  key={service.title.en}
+                  className="flex gap-4 rounded-lg border border-border bg-card/50 p-5"
+                >
+                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border border-accent/20 bg-accent/5">
+                    <Icon className="h-4 w-4 text-accent" />
+                  </div>
+                  <div>
+                    <h3 className="mb-1 font-mono text-base font-semibold text-text">
+                      {service.title[locale]}
+                    </h3>
+                    <p className="text-sm leading-relaxed text-muted">
+                      {service.description[locale]}
+                    </p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+        <p className="mt-8 text-center text-sm leading-relaxed text-muted">
+          {t("docNote")}
+        </p>
       </Container>
     </section>
   );

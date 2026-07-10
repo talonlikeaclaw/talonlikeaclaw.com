@@ -23,8 +23,8 @@ export default async function Home({ params }: Props) {
       <TrustBand />
       <Services />
       <WhoIHelp />
-      <Process />
       <Work />
+      <Process />
       <About />
       <Faq />
       <Contact />

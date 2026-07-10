@@ -10,6 +10,9 @@ export default function TrustBand() {
   return (
     <section className="border-y border-border bg-card/30 py-8">
       <Container>
+        <p className="mb-4 text-center text-sm leading-relaxed text-muted">
+          {t("framing")}
+        </p>
         <div className="flex flex-col items-center gap-5 sm:flex-row sm:justify-center sm:gap-12">
           <PlatformGroup label={t("cloudLabel")} platforms={cloudPlatforms} />
           <PlatformGroup

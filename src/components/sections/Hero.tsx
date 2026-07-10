@@ -35,7 +35,10 @@ export default function Hero() {
               {t("ctaSecondary")}
             </a>
           </div>
-          <p className="mt-10 font-mono text-sm text-muted">{t("location")}</p>
+          <p className="mt-8 font-mono text-sm leading-relaxed text-muted">
+            {t("proof")}
+          </p>
+          <p className="mt-6 font-mono text-sm text-muted">{t("location")}</p>
         </div>
       </Container>
     </section>
