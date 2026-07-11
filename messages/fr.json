@@ -13,11 +13,12 @@
   },
   "hero": {
     "eyebrow": "Ingénierie d'infrastructure et de déploiement",
-    "headline": "Un bon logiciel mérite un environnement solide.",
+    "headlineLead": "Un bon logiciel",
+    "headlineAccent": "mérite mieux.",
     "subtext": "J'aide les petites équipes à déployer, documenter et maintenir les systèmes dont elles dépendent. Cloud, auto-hébergement ou un bon mélange des deux.",
     "ctaPrimary": "Parlez-moi de votre système",
     "ctaSecondary": "Voir le portfolio technique",
-    "proof": "Déploiements, CI/CD, surveillance, sauvegardes et documentation. Tout ce qui garde un logiciel en marche, même si ce n'est pas très glamour.",
+    "proof": "Déploiements, CI/CD, surveillance, sauvegardes et documentation.",
     "location": "Basé à Montréal, Québec"
   },
   "trust": {

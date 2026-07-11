@@ -13,11 +13,12 @@
   },
   "hero": {
     "eyebrow": "Infrastructure & Deployment Engineering",
-    "headline": "Good software deserves a solid place to run.",
+    "headlineLead": "Good software deserves",
+    "headlineAccent": "reliable infrastructure.",
     "subtext": "I help small teams deploy, document, and maintain the systems they depend on. Cloud, self-hosted, or a sensible mix of both.",
-    "ctaPrimary": "Tell me about your setup",
+    "ctaPrimary": "Let's work together",
     "ctaSecondary": "View technical portfolio",
-    "proof": "Deployments, CI/CD, monitoring, backups, and docs. All the unglamorous bits that keep software running.",
+    "proof": "Deployments, CI/CD, monitoring, backups, and docs.",
     "location": "Based in Montréal, Québec"
   },
   "trust": {

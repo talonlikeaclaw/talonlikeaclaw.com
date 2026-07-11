@@ -18,7 +18,7 @@ export default function Work() {
           {caseStudies.map((project) => (
             <article
               key={project.title.en}
-              className="group flex flex-col overflow-hidden rounded-lg border border-border bg-card transition-colors hover:border-accent/50 md:flex-row"
+              className="group flex flex-col overflow-hidden rounded-lg border border-border bg-card transition-all hover:border-accent/50 motion-safe:hover:-translate-y-0.5 md:flex-row"
             >
               <div className="relative aspect-[16/10] w-full overflow-hidden md:aspect-auto md:w-2/5">
                 <Image

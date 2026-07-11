@@ -1,6 +1,7 @@
 import { useTranslations, useLocale } from "next-intl";
 import Container from "@/components/ui/Container";
 import SectionHeading from "@/components/ui/SectionHeading";
+import SpotlightCard from "@/components/reactbits/SpotlightCard";
 import { services, additionalServices } from "@/data/services";
 import type { Locale } from "@/i18n/routing";
 
@@ -16,11 +17,10 @@ export default function Services() {
           {services.map((service) => {
             const Icon = service.icon;
             return (
-              <div
+              <SpotlightCard
                 key={service.title.en}
-                className="relative overflow-hidden rounded-lg border border-border bg-card p-6"
+                className="rounded-lg border border-border bg-card p-6 transition-colors hover:border-accent/40"
               >
-                <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,var(--accent)_0%,transparent_70%)] opacity-[0.01]" />
                 <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-lg border border-accent/30 bg-accent/10">
                   <Icon className="h-5 w-5 text-accent" />
                 </div>
@@ -30,7 +30,7 @@ export default function Services() {
                 <p className="leading-relaxed text-muted">
                   {service.description[locale]}
                 </p>
-              </div>
+              </SpotlightCard>
             );
           })}
         </div>
@@ -44,7 +44,7 @@ export default function Services() {
               return (
                 <div
                   key={service.title.en}
-                  className="flex gap-4 rounded-lg border border-border bg-card/50 p-5"
+                  className="flex gap-4 rounded-lg border border-border bg-card/50 p-5 transition-colors hover:border-accent/30"
                 >
                   <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border border-accent/20 bg-accent/5">
                     <Icon className="h-4 w-4 text-accent" />

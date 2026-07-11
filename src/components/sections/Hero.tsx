@@ -1,20 +1,60 @@
 import { useTranslations, useLocale } from "next-intl";
 import Container from "@/components/ui/Container";
 import type { Locale } from "@/i18n/routing";
+import FaultyTerminal from "@/components/reactbits/FaultyTerminal";
+import DecryptedText from "@/components/reactbits/DecryptedText";
+import Typewriter from "@/components/animations/Typewriter";
 
 export default function Hero() {
   const t = useTranslations("hero");
   const locale = useLocale() as Locale;
 
   return (
-    <section className="relative flex min-h-screen items-center pt-20 pb-16">
-      <Container className="max-w-6xl">
+    <section className="relative flex min-h-screen items-center overflow-hidden pt-20 pb-16">
+      <div className="pointer-events-none absolute inset-0 opacity-[0.08]">
+        <FaultyTerminal
+          mouseReact={false}
+          timeScale={0.12}
+          glitchAmount={1.15}
+          flickerAmount={0.25}
+          scanlineIntensity={0.18}
+          curvature={0.15}
+          dither={0}
+          brightness={0.65}
+        />
+      </div>
+
+      <Container className="relative max-w-6xl">
         <div>
           <p className="font-mono text-sm text-accent sm:text-base">
-            <span className="text-muted">$</span> {t("eyebrow")}
+            <span className="text-muted">$ </span>
+            <Typewriter
+              text={t("eyebrow")}
+              speed={20}
+              initialDelay={50}
+              loop={false}
+            />
           </p>
           <h1 className="mt-6 font-mono text-2xl font-bold leading-tight tracking-tight text-text sm:text-6xl">
-            {t("headline")}
+            <DecryptedText
+              text={t("headlineLead")}
+              animateOn="view"
+              sequential
+              revealDirection="start"
+              speed={18}
+              className="text-text"
+              encryptedClassName="text-accent/50"
+            />
+            <br />
+            <DecryptedText
+              text={t("headlineAccent")}
+              animateOn="view"
+              sequential
+              revealDirection="start"
+              speed={18}
+              className="text-accent"
+              encryptedClassName="text-accent/50"
+            />
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
             {t("subtext")}
