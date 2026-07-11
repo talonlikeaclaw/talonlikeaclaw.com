@@ -1,7 +1,6 @@
 import { useTranslations, useLocale } from "next-intl";
 import Container from "@/components/ui/Container";
 import type { Locale } from "@/i18n/routing";
-import FaultyTerminalLazy from "@/components/reactbits/FaultyTerminalLazy";
 import DecryptedText from "@/components/reactbits/DecryptedText";
 import Typewriter from "@/components/animations/Typewriter";
 
@@ -11,19 +10,6 @@ export default function Hero() {
 
   return (
     <section className="relative flex min-h-screen items-center overflow-hidden pt-20 pb-16">
-      <div className="pointer-events-none absolute inset-0 opacity-[0.08]">
-        <FaultyTerminalLazy
-          mouseReact={false}
-          timeScale={0.12}
-          glitchAmount={1.15}
-          flickerAmount={0.25}
-          scanlineIntensity={0.18}
-          curvature={0.15}
-          dither={0}
-          brightness={0.65}
-        />
-      </div>
-
       <Container className="relative max-w-6xl">
         <div>
           <p className="font-mono text-sm text-accent sm:text-base">
