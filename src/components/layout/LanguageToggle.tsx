@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useRef } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
 import { Globe } from "lucide-react";
@@ -14,9 +15,19 @@ export default function LanguageToggle({
   const pathname = usePathname();
   const router = useRouter();
   const t = useTranslations("nav");
+  const resetScrollRef = useRef(false);
 
   const otherLocale =
     routing.locales.find((l) => l !== locale) ?? routing.defaultLocale;
+
+  useEffect(() => {
+    if (!resetScrollRef.current) return;
+    resetScrollRef.current = false;
+
+    if (!window.location.hash) {
+      window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+    }
+  }, [pathname]);
 
   function handleToggle() {
     const hash = typeof window !== "undefined" ? window.location.hash : "";
@@ -31,7 +42,8 @@ export default function LanguageToggle({
       segments.unshift(otherLocale);
     }
 
-    router.push(`/${segments.join("/")}${hash}`);
+    resetScrollRef.current = true;
+    router.push(`/${segments.join("/")}${hash}`, { scroll: false });
   }
 
   return (
