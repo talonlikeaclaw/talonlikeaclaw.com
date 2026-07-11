@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
-import { motion } from "motion/react";
 import { useReducedMotion } from "@/lib/useReducedMotion";
 
 interface FaqItemProps {
@@ -31,14 +30,17 @@ export default function FaqItem({ question, answer }: FaqItemProps) {
       {reduced ? (
         open && <p className="pb-4 pr-8 leading-relaxed text-muted">{answer}</p>
       ) : (
-        <motion.div
-          initial={false}
-          animate={{ height: open ? "auto" : 0, opacity: open ? 1 : 0 }}
-          transition={{ duration: 0.25, ease: "easeOut" }}
-          className="overflow-hidden"
+        <div
+          className="grid overflow-hidden transition-[grid-template-rows,opacity] duration-300 ease-out"
+          style={{
+            gridTemplateRows: open ? "1fr" : "0fr",
+            opacity: open ? 1 : 0,
+          }}
         >
-          <p className="pb-4 pr-8 leading-relaxed text-muted">{answer}</p>
-        </motion.div>
+          <div className="min-h-0">
+            <p className="pb-4 pr-8 leading-relaxed text-muted">{answer}</p>
+          </div>
+        </div>
       )}
     </div>
   );

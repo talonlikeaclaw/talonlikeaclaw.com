@@ -1,7 +1,6 @@
 "use client";
 
-import { useRef, useSyncExternalStore } from "react";
-import { useInView } from "motion/react";
+import { useRef, useState, useEffect, useSyncExternalStore } from "react";
 import { useReducedMotion } from "@/lib/useReducedMotion";
 
 type Direction = "up" | "down" | "left" | "right";
@@ -36,7 +35,28 @@ export default function AnimatedSection({
     getServerSnapshot,
   );
   const ref = useRef<HTMLDivElement>(null);
-  const isInView = useInView(ref, { once, margin: "0px 0px -15% 0px" });
+  const [isInView, setIsInView] = useState(false);
+
+  useEffect(() => {
+    if (!ref.current) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setIsInView(true);
+            if (once) observer.disconnect();
+          } else if (!once) {
+            setIsInView(false);
+          }
+        });
+      },
+      { rootMargin: "0px 0px -15% 0px" },
+    );
+
+    observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, [once]);
 
   if (!mounted || reduced) {
     return (

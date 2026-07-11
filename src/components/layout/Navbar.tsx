@@ -42,7 +42,7 @@ export default function Navbar() {
             <LanguageToggle />
             <a
               href="#contact"
-              className="flex items-center justify-center rounded-lg border border-accent bg-accent/10 p-2 text-accent transition-all hover:bg-accent hover:text-black focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
+              className="flex items-center justify-center rounded-lg border border-accent bg-accent/10 p-2 text-accent transition-colors hover:bg-accent hover:text-black focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
               aria-label={t("contactMeAria")}
             >
               <Mail size={18} />
@@ -54,7 +54,7 @@ export default function Navbar() {
             <LanguageToggle />
             <a
               href="#contact"
-              className="flex items-center justify-center rounded-lg border border-accent bg-accent/10 p-2 text-accent transition-all hover:bg-accent hover:text-black"
+              className="flex items-center justify-center rounded-lg border border-accent bg-accent/10 p-2 text-accent transition-colors hover:bg-accent hover:text-black"
               aria-label={t("contactMeAria")}
             >
               <Mail size={18} />

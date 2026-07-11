@@ -22,7 +22,7 @@ export default function Contact() {
         <div className="mx-auto max-w-2xl text-center">
           <a
             href="mailto:talon@talonlikeaclaw.com"
-            className="inline-flex items-center gap-2 rounded-lg border border-accent bg-accent/10 px-8 py-4 font-mono text-lg font-medium text-accent transition-all motion-safe:hover:-translate-y-0.5 hover:bg-accent hover:text-black focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
+            className="inline-flex items-center gap-2 rounded-lg border border-accent bg-accent/10 px-8 py-4 font-mono text-lg font-medium text-accent transition-[background-color,color,transform] motion-safe:hover:-translate-y-0.5 hover:bg-accent hover:text-black focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
           >
             <Mail size={20} />
             <span>{t("emailButton")}</span>

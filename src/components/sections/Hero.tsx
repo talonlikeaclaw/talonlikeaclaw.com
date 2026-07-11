@@ -1,7 +1,7 @@
 import { useTranslations, useLocale } from "next-intl";
 import Container from "@/components/ui/Container";
 import type { Locale } from "@/i18n/routing";
-import FaultyTerminal from "@/components/reactbits/FaultyTerminal";
+import FaultyTerminalLazy from "@/components/reactbits/FaultyTerminalLazy";
 import DecryptedText from "@/components/reactbits/DecryptedText";
 import Typewriter from "@/components/animations/Typewriter";
 
@@ -12,7 +12,7 @@ export default function Hero() {
   return (
     <section className="relative flex min-h-screen items-center overflow-hidden pt-20 pb-16">
       <div className="pointer-events-none absolute inset-0 opacity-[0.08]">
-        <FaultyTerminal
+        <FaultyTerminalLazy
           mouseReact={false}
           timeScale={0.12}
           glitchAmount={1.15}
@@ -62,7 +62,7 @@ export default function Hero() {
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <a
               href="#contact"
-              className="rounded-lg border border-accent bg-accent/10 px-6 py-3 text-center font-mono font-medium text-accent transition-all hover:bg-accent hover:text-black focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
+              className="rounded-lg border border-accent bg-accent/10 px-6 py-3 text-center font-mono font-medium text-accent transition-colors hover:bg-accent hover:text-black focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
             >
               {t("ctaPrimary")}
             </a>
@@ -70,7 +70,7 @@ export default function Hero() {
               href={`https://portfolio.talonlikeaclaw.com/${locale}/`}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-lg border border-border bg-background/40 px-6 py-3 text-center font-mono font-medium text-text transition-all hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
+              className="rounded-lg border border-border bg-background/40 px-6 py-3 text-center font-mono font-medium text-text transition-colors hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
             >
               {t("ctaSecondary")}
             </a>
