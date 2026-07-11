@@ -60,7 +60,7 @@ export default function AnimatedSection({
 
   if (!mounted || reduced) {
     return (
-      <div ref={ref} className={className}>
+      <div ref={ref} className={`cv-auto ${className ?? ""}`}>
         {children}
       </div>
     );
@@ -73,7 +73,7 @@ export default function AnimatedSection({
   return (
     <div
       ref={ref}
-      className={className}
+      className={`cv-auto ${className ?? ""}`}
       style={{
         opacity: isInView ? 1 : 0,
         transform: `${transformAxis}(${isInView ? 0 : sign * distance}px)`,

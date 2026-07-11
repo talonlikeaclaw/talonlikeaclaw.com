@@ -55,3 +55,8 @@ b {
     animation: cursor-blink 1s step-end infinite;
   }
 }
+
+.cv-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 600px;
+}

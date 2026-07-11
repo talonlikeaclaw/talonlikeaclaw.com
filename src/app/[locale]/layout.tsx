@@ -15,12 +15,14 @@ import Footer from "@/components/layout/Footer";
 
 const inter = Inter({
   subsets: ["latin"],
+  weight: ["400", "600"],
   display: "swap",
   variable: "--font-inter",
 });
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
   display: "swap",
   variable: "--font-mono",
   preload: true,

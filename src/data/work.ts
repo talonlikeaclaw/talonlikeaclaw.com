@@ -43,7 +43,7 @@ export const caseStudies: CaseStudy[] = [
       },
     ],
     technologies: ["Python", "Odoo", "PostgreSQL", "Docker"],
-    image: "dawsasset.jpg",
+    image: "dawsasset.webp",
     note: {
       en: "Live production deployment at Dawson College.",
       fr: "Déploiement en production au Cégep Dawson.",
@@ -84,7 +84,7 @@ export const caseStudies: CaseStudy[] = [
       "Docker",
       "GitLab CI",
     ],
-    image: "coralreef.jpg",
+    image: "coralreef.webp",
     note: {
       en: "Live at thecoralreef.club.",
       fr: "En ligne au thecoralreef.club.",
@@ -119,7 +119,7 @@ export const caseStudies: CaseStudy[] = [
       },
     ],
     technologies: ["Proxmox", "TrueNAS", "Docker", "Ansible", "OpenTofu"],
-    image: "homelab.jpg",
+    image: "homelab.webp",
     note: {
       en: "17+ services in production.",
       fr: "Plus de 17 services en production.",

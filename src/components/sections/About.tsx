@@ -14,13 +14,12 @@ export default function About() {
         <div className="mx-auto max-w-3xl">
           <div className="mx-auto mb-8 h-32 w-32 overflow-hidden rounded-full border-2 border-accent/20 sm:h-40 sm:w-40">
             <Image
-              src="/headshot.jpg"
+              src="/headshot.webp"
               alt={t("photoAlt")}
               width={160}
               height={160}
               sizes="(max-width: 640px) 128px, 160px"
               className="h-full w-full object-cover"
-              priority
             />
           </div>
           <p className="text-center text-lg leading-relaxed text-muted">
