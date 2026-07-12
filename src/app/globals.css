@@ -56,7 +56,14 @@ b {
   }
 }
 
-.cv-auto {
-  content-visibility: auto;
-  contain-intrinsic-size: auto 600px;
+.hero-accent-bloom::before {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  content: "";
+  background: radial-gradient(
+    ellipse 45% 75% at center,
+    color-mix(in srgb, var(--accent) 7%, transparent),
+    transparent 70%
+  );
 }

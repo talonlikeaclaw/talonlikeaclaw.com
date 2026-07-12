@@ -9,7 +9,7 @@ export default function Hero() {
   const locale = useLocale() as Locale;
 
   return (
-    <section className="relative flex min-h-screen items-center overflow-hidden pt-20 pb-16">
+    <section className="hero-accent-bloom relative flex min-h-screen items-center overflow-hidden pt-20 pb-16">
       <Container className="relative max-w-6xl">
         <div>
           <p className="font-mono text-sm text-accent sm:text-base">
