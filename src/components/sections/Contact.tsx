@@ -7,7 +7,7 @@ const secondaryLinks = [
   { key: "github", href: "https://github.com/talonlikeaclaw", icon: Github },
   {
     key: "linkedin",
-    href: "https://linkedin.com/in/talon-dunbar-181b17300",
+    href: "https://www.linkedin.com/in/talon-dunbar",
     icon: Linkedin,
   },
 ];
