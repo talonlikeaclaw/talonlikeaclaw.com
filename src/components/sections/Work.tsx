@@ -1,7 +1,8 @@
 import { useTranslations, useLocale } from "next-intl";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
-import { GithubIcon, ExternalLinkIcon } from "@/components/itshover/PortfolioIcons";
+import ExternalLinkIcon from "@/components/icons/ExternalLinkIcon";
+import GithubIcon from "@/components/icons/GithubIcon";
 import Container from "@/components/ui/Container";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { caseStudies } from "@/data/work";

@@ -2,7 +2,7 @@ import { getTranslations } from "next-intl/server";
 import Container from "@/components/ui/Container";
 import LanguageToggle from "@/components/layout/LanguageToggle";
 import { Menu, X } from "lucide-react";
-import { MailIcon } from "@/components/itshover/PortfolioIcons";
+import MailIcon from "@/components/icons/MailIcon";
 
 const navLinks = [
   { href: "#services", key: "services" },

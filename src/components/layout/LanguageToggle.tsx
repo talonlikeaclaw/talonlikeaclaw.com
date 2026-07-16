@@ -1,5 +1,5 @@
 import { getLocale, getTranslations } from "next-intl/server";
-import { GlobeIcon } from "@/components/itshover/PortfolioIcons";
+import GlobeIcon from "@/components/icons/GlobeIcon";
 import { routing, type Locale } from "@/i18n/routing";
 
 export default async function LanguageToggle({

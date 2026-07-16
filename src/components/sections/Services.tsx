@@ -6,8 +6,20 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import SpotlightCard from "@/components/reactbits/SpotlightCard";
 import { services, additionalServices } from "@/data/services";
 import type { Locale } from "@/i18n/routing";
-import AnimatedCardIcon from "@/components/itshover/AnimatedCardIcon";
-import PortfolioIcon from "@/components/itshover/PortfolioIcons";
+import type { ComponentType } from "react";
+import AnimatedCardIcon from "@/components/icons/AnimatedCardIcon";
+import GearIcon from "@/components/icons/GearIcon";
+import RefreshIcon from "@/components/icons/RefreshIcon";
+import RocketIcon from "@/components/icons/RocketIcon";
+import RouterIcon from "@/components/icons/RouterIcon";
+import type { AnimatedIconProps } from "@/components/icons/types";
+
+const serviceIcons: readonly ComponentType<AnimatedIconProps>[] = [
+  RocketIcon,
+  RouterIcon,
+  RefreshIcon,
+  GearIcon,
+];
 
 export default function Services() {
   const t = useTranslations("services");
@@ -19,7 +31,7 @@ export default function Services() {
         <SectionHeading title={t("title")} subtitle={t("subtitle")} />
         <div className="grid gap-6 sm:grid-cols-2">
           {services.map((service, index) => {
-            const animatedIcon = ["rocket", "router", "refresh", "gear"] as const;
+            const Icon = serviceIcons[index];
             return (
               <SpotlightCard
                 key={service.title.en}
@@ -27,7 +39,7 @@ export default function Services() {
                 className="rounded-lg border border-border bg-card p-6 transition-colors hover:border-accent/40"
               >
                 <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-lg border border-accent/30 bg-accent/10">
-                  <PortfolioIcon name={animatedIcon[index]} size={24} className="text-accent" />
+                  <Icon size={24} className="text-accent" />
                 </div>
                 <h3 className="mb-3 font-mono text-xl font-semibold text-accent">
                   {service.title[locale]}

@@ -6,7 +6,7 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import SpotlightCard from "@/components/reactbits/SpotlightCard";
 import { audiences } from "@/data/audiences";
 import type { Locale } from "@/i18n/routing";
-import AnimatedCardIcon from "@/components/itshover/AnimatedCardIcon";
+import AnimatedCardIcon from "@/components/icons/AnimatedCardIcon";
 
 export default function WhoIHelp() {
   const t = useTranslations("who");

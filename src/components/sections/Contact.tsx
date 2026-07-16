@@ -1,5 +1,7 @@
 import { useTranslations } from "next-intl";
-import { GithubIcon, LinkedinIcon, MailIcon } from "@/components/itshover/PortfolioIcons";
+import GithubIcon from "@/components/icons/GithubIcon";
+import LinkedinIcon from "@/components/icons/LinkedinIcon";
+import MailIcon from "@/components/icons/MailIcon";
 import Container from "@/components/ui/Container";
 import SectionHeading from "@/components/ui/SectionHeading";
 
