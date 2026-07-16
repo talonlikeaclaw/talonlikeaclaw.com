@@ -6,6 +6,7 @@ const attributions = [
   { name: "Tailwind CSS", href: "https://tailwindcss.com" },
   { name: "Inter", href: "https://rsms.me/inter" },
   { name: "JetBrains Mono", href: "https://www.jetbrains.com/lp/mono" },
+  { name: "Its Hover", href: "https://itshover.com" },
   { name: "Lucide", href: "https://lucide.dev" },
 ];
 

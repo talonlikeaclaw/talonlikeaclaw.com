@@ -1,7 +1,8 @@
 import { getTranslations } from "next-intl/server";
 import Container from "@/components/ui/Container";
 import LanguageToggle from "@/components/layout/LanguageToggle";
-import { Menu, X, Mail } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import { MailIcon } from "@/components/itshover/PortfolioIcons";
 
 const navLinks = [
   { href: "#services", key: "services" },
@@ -41,7 +42,7 @@ export default async function Navbar() {
               className="flex items-center justify-center rounded-lg border border-accent bg-accent/10 p-2 text-accent transition-colors hover:bg-accent hover:text-black focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
               aria-label={t("contactMeAria")}
             >
-              <Mail size={18} />
+              <MailIcon size={20} />
             </a>
           </div>
 
@@ -53,7 +54,7 @@ export default async function Navbar() {
               className="flex items-center justify-center rounded-lg border border-accent bg-accent/10 p-2 text-accent transition-colors hover:bg-accent hover:text-black"
               aria-label={t("contactMeAria")}
             >
-              <Mail size={18} />
+              <MailIcon size={20} />
             </a>
             <details className="group">
               <summary

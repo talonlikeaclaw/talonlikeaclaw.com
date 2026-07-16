@@ -1,9 +1,12 @@
+"use client";
+
 import { useTranslations, useLocale } from "next-intl";
 import Container from "@/components/ui/Container";
 import SectionHeading from "@/components/ui/SectionHeading";
 import SpotlightCard from "@/components/reactbits/SpotlightCard";
 import { audiences } from "@/data/audiences";
 import type { Locale } from "@/i18n/routing";
+import AnimatedCardIcon from "@/components/itshover/AnimatedCardIcon";
 
 export default function WhoIHelp() {
   const t = useTranslations("who");
@@ -19,10 +22,11 @@ export default function WhoIHelp() {
             return (
               <SpotlightCard
                 key={audience.title.en}
+                dataIconTrigger
                 className="rounded-lg border border-border bg-card p-6 transition-colors hover:border-accent/40"
               >
                 <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-lg border border-accent/30 bg-accent/10">
-                  <Icon className="h-5 w-5 text-accent" />
+                  <AnimatedCardIcon Icon={Icon} />
                 </div>
                 <h3 className="mb-3 font-mono text-xl font-semibold text-accent">
                   {audience.title[locale]}

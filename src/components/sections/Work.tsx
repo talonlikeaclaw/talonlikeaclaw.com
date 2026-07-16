@@ -1,6 +1,7 @@
 import { useTranslations, useLocale } from "next-intl";
 import Image from "next/image";
-import { Github, ExternalLink, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import { GithubIcon, ExternalLinkIcon } from "@/components/itshover/PortfolioIcons";
 import Container from "@/components/ui/Container";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { caseStudies } from "@/data/work";
@@ -66,7 +67,7 @@ export default function Work() {
                       rel="noopener noreferrer"
                       className="flex items-center gap-1 font-mono text-sm text-muted transition-colors hover:text-accent focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
                     >
-                      <Github size={16} />
+                      <GithubIcon size={16} />
                       <span>{t("linkCode")}</span>
                     </a>
                   )}
@@ -77,7 +78,7 @@ export default function Work() {
                       rel="noopener noreferrer"
                       className="flex items-center gap-1 font-mono text-sm text-muted transition-colors hover:text-accent focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
                     >
-                      <ExternalLink size={16} />
+                      <ExternalLinkIcon size={16} />
                       <span>{t("linkLive")}</span>
                     </a>
                   )}

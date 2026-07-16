@@ -12,6 +12,7 @@ import "../globals.css";
 import { routing } from "@/i18n/routing";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import AnimatedIconProvider from "@/components/itshover/AnimatedIconProvider";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -100,6 +101,7 @@ export default async function LocaleLayout({ children, params }: Props) {
     >
       <body className={`${inter.className} antialiased`}>
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <AnimatedIconProvider>
           <a
             href="#main-content"
             className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:border focus:border-accent focus:bg-card focus:px-4 focus:py-2 focus:text-text"
@@ -109,6 +111,7 @@ export default async function LocaleLayout({ children, params }: Props) {
           <Navbar />
           <main id="main-content">{children}</main>
           <Footer />
+          </AnimatedIconProvider>
         </NextIntlClientProvider>
       </body>
     </html>

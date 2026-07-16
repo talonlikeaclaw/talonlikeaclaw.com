@@ -8,12 +8,14 @@ interface SpotlightCardProps {
   children: React.ReactNode;
   className?: string;
   spotlightColor?: string;
+  dataIconTrigger?: boolean;
 }
 
 export default function SpotlightCard({
   children,
   className,
   spotlightColor = "rgba(34, 197, 94, 0.04)",
+  dataIconTrigger = false,
 }: SpotlightCardProps) {
   const divRef = useRef<HTMLDivElement>(null);
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -29,6 +31,7 @@ export default function SpotlightCard({
   return (
     <div
       ref={divRef}
+      data-icon-trigger={dataIconTrigger || undefined}
       onMouseMove={handleMouseMove}
       onMouseEnter={() => setOpacity(1)}
       onMouseLeave={() => setOpacity(0)}
